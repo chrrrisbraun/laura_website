@@ -13,11 +13,11 @@ const HeroSection = () => {
       </div>
       <div className="relative h-full flex items-center justify-center text-center px-4">
         <div className="animate-fade-up">
-          <h1 className="text-4xl md:text-6xl font-bold text-orange-200 mb-6">
-            Your baby and you,
+          <h1 className="text-6xl md:text-8xl font-windSong font-bold text-orange-200 mb-9">
+            Du und dein Baby
           </h1>
           <p className="text-2xl md:text-4xl text-white font-light">
-            just closer wherever you go
+            nur viel näher, egal wohin du gehst. 
           </p>
         </div>
       </div>

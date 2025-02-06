@@ -55,6 +55,9 @@ export default {
       },
       fontFamily: {
         sans: ["Avenir", "sans-serif"],
+        windSong: ["WindSong", "serif"],
+        allura: ["Allura", "serif"],
+        passionConflict: ["Passions Conflict", "serif"],
       },
       animation: {
         "fade-up": "fadeUp 1s ease-out",

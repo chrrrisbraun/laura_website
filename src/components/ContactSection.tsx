@@ -10,10 +10,10 @@ const ContactSection = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h2 className="text-3xl font-semibold text-gray-800">
-              Get in Touch
+              Kontakt
             </h2>
             <p className="text-lg text-gray-600">
-              Get the individual experience or join the course with your friends! Whether you prefer one-on-one guidance or learning in a group setting, we're here to support your baby-wearing journey.
+            Erlebe eine individuelle Beratung oder nimm gemeinsam mit deinen Freunden am Kurs teil! Egal, ob du persönliche Begleitung bevorzugst oder lieber in der Gruppe lernst – wir sind da, um dich auf deiner Trage-Reise zu unterstützen!
             </p>
           </div>
           
@@ -21,26 +21,26 @@ const ContactSection = () => {
             <div className="space-y-4">
               <div className="space-y-2">
                 <Label htmlFor="name">Name</Label>
-                <Input id="name" placeholder="Your name" />
+                <Input id="name" placeholder="Dein Name" />
               </div>
               
               <div className="space-y-2">
                 <Label htmlFor="email">Email</Label>
-                <Input id="email" type="email" placeholder="Your email" />
+                <Input id="email" type="email" placeholder="Deine Email" />
               </div>
               
               <div className="space-y-2">
-                <Label htmlFor="message">Message</Label>
+                <Label htmlFor="message">Nachricht</Label>
                 <textarea 
                   id="message" 
                   className="w-full min-h-[100px] rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                  placeholder="Tell us about your preferences (individual/group session)"
+                  placeholder="Gib hier gerne bescheid ob du in einer Gruppe oder lieber alleine teilnehmen möchtest und wann du Zeit hast."
                 />
               </div>
             </div>
             
             <Button className="w-full">
-              Send Message
+              Nachricht senden
             </Button>
           </div>
         </div>

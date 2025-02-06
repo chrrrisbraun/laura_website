@@ -16,7 +16,7 @@ const CourseContent = () => {
     {
       icon: <Clock className="w-8 h-8" />,
       title: "Flexibler Zeitplan",
-      description: "4-wöchiger Kurs mit Online- und Präsenzoptionen",
+      description: "Für Gruppen oder Einzelsessions",
     },
   ];
 
