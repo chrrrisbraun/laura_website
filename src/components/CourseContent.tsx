@@ -5,26 +5,27 @@ const CourseContent = () => {
   const contents = [
     {
       icon: <BookOpen className="w-8 h-8" />,
-      title: "Comprehensive Learning",
-      description: "Master different sling techniques and positions for every age",
+      title: "Umfassendes Lernen",
+      description: "Meistere verschiedene Trage-Techniken und Positionen für jedes Alter",
     },
     {
       icon: <Users className="w-8 h-8" />,
-      title: "Hands-on Practice",
-      description: "Interactive sessions with experienced instructors",
+      title: "Praktische Übungen",
+      description: "Interaktive Sitzungen mit erfahrenen Instruktoren",
     },
     {
       icon: <Clock className="w-8 h-8" />,
-      title: "Flexible Schedule",
-      description: "4-week course with both online and in-person options",
+      title: "Flexibler Zeitplan",
+      description: "4-wöchiger Kurs mit Online- und Präsenzoptionen",
     },
   ];
+
 
   return (
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">
-          Course Contents
+          Kursinhalte
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {contents.map((item, index) => (

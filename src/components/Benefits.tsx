@@ -5,31 +5,32 @@ const Benefits = () => {
   const benefits = [
     {
       icon: <Heart className="w-6 h-6" />,
-      title: "Strengthens Bond",
-      description: "Promotes secure attachment and emotional connection",
+      title: "Stärkt die Bindung",
+      description: "Fördert eine sichere Bindung und emotionale Verbindung",
     },
     {
       icon: <Brain className="w-6 h-6" />,
-      title: "Supports Development",
-      description: "Enhances cognitive and physical development",
+      title: "Unterstützt die Entwicklung",
+      description: "Verbessert die kognitive und körperliche Entwicklung",
     },
     {
       icon: <Smile className="w-6 h-6" />,
-      title: "Comfort & Security",
-      description: "Provides a safe and soothing environment",
+      title: "Komfort & Sicherheit",
+      description: "Bietet eine sichere und beruhigende Umgebung",
     },
     {
       icon: <Baby className="w-6 h-6" />,
-      title: "Hands-Free Care",
-      description: "Freedom to move while keeping baby close",
+      title: "Freihändige Betreuung",
+      description: "Freiheit, sich zu bewegen, während das Baby nah bleibt",
     },
   ];
+
 
   return (
     <section className="py-20 bg-secondary">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">
-          Benefits of Baby Wearing
+          Vorteile von Babytragetüchern
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {benefits.map((benefit, index) => (

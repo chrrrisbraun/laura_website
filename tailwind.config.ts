@@ -54,10 +54,10 @@ export default {
         },
       },
       fontFamily: {
-        sans: ["Inter", "sans-serif"],
+        sans: ["Avenir", "sans-serif"],
       },
       animation: {
-        "fade-up": "fadeUp 0.5s ease-out",
+        "fade-up": "fadeUp 1s ease-out",
       },
       keyframes: {
         fadeUp: {
