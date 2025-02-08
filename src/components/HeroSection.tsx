@@ -1,5 +1,3 @@
-import React from 'react';
-
 const HeroSection = () => {
   return (
     <section className="relative h-screen w-full">
@@ -20,6 +18,9 @@ const HeroSection = () => {
             nur viel näher, egal wohin du gehst. 
           </p>
         </div>
+      </div>
+      <div className="absolute bottom-4 right-2 md:bottom-8 md:right-8">
+        <img src="/Logo_full_transparent.png" alt="Logo" className="w-60 md:w-80" />
       </div>
     </section>
   );
